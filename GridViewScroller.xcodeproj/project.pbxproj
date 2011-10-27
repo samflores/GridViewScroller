@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A374AC514596EED007E6B9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A374AC414596EED007E6B9C /* UIKit.framework */; };
+		7A374AC714596EED007E6B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A374AC614596EED007E6B9C /* Foundation.framework */; };
+		7A374AC914596EED007E6B9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A374AC814596EED007E6B9C /* CoreGraphics.framework */; };
+		7A374ACF14596EED007E6B9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A374ACD14596EED007E6B9C /* InfoPlist.strings */; };
+		7A374AD114596EED007E6B9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A374AD014596EED007E6B9C /* main.m */; };
+		7A374AD514596EED007E6B9C /* GVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A374AD414596EED007E6B9C /* GVSAppDelegate.m */; };
+		7A374AD814596EED007E6B9C /* GVSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A374AD714596EED007E6B9C /* GVSViewController.m */; };
+		7A374ADB14596EED007E6B9C /* GVSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A374AD914596EED007E6B9C /* GVSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A374AC014596EED007E6B9C /* GridViewScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A374AC414596EED007E6B9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A374AC614596EED007E6B9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A374AC814596EED007E6B9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A374ACC14596EED007E6B9C /* GridViewScroller-Info.plist */ = {isa = PBXFileReference; path = "GridViewScroller-Info.plist"; sourceTree = "<group>"; };
+		7A374ACE14596EED007E6B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A374AD014596EED007E6B9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A374AD214596EED007E6B9C /* GridViewScroller-Prefix.pch */ = {isa = PBXFileReference; path = "GridViewScroller-Prefix.pch"; sourceTree = "<group>"; };
+		7A374AD314596EED007E6B9C /* GVSAppDelegate.h */ = {isa = PBXFileReference; path = GVSAppDelegate.h; sourceTree = "<group>"; };
+		7A374AD414596EED007E6B9C /* GVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVSAppDelegate.m; sourceTree = "<group>"; };
+		7A374AD614596EED007E6B9C /* GVSViewController.h */ = {isa = PBXFileReference; path = GVSViewController.h; sourceTree = "<group>"; };
+		7A374AD714596EED007E6B9C /* GVSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVSViewController.m; sourceTree = "<group>"; };
+		7A374ADA14596EED007E6B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GVSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A374ABD14596EED007E6B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A374AC514596EED007E6B9C /* UIKit.framework in Frameworks */,
+				7A374AC714596EED007E6B9C /* Foundation.framework in Frameworks */,
+				7A374AC914596EED007E6B9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A374AB514596EED007E6B9C = {
+			isa = PBXGroup;
+			children = (
+				7A374ACA14596EED007E6B9C /* GridViewScroller */,
+				7A374AC314596EED007E6B9C /* Frameworks */,
+				7A374AC114596EED007E6B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A374AC114596EED007E6B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A374AC014596EED007E6B9C /* GridViewScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A374AC314596EED007E6B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A374AC414596EED007E6B9C /* UIKit.framework */,
+				7A374AC614596EED007E6B9C /* Foundation.framework */,
+				7A374AC814596EED007E6B9C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A374ACA14596EED007E6B9C /* GridViewScroller */ = {
+			isa = PBXGroup;
+			children = (
+				7A374AD314596EED007E6B9C /* GVSAppDelegate.h */,
+				7A374AD414596EED007E6B9C /* GVSAppDelegate.m */,
+				7A374AD614596EED007E6B9C /* GVSViewController.h */,
+				7A374AD714596EED007E6B9C /* GVSViewController.m */,
+				7A374AD914596EED007E6B9C /* GVSViewController.xib */,
+				7A374ACB14596EED007E6B9C /* Supporting Files */,
+			);
+			path = GridViewScroller;
+			sourceTree = "<group>";
+		};
+		7A374ACB14596EED007E6B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A374ACC14596EED007E6B9C /* GridViewScroller-Info.plist */,
+				7A374ACD14596EED007E6B9C /* InfoPlist.strings */,
+				7A374AD014596EED007E6B9C /* main.m */,
+				7A374AD214596EED007E6B9C /* GridViewScroller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A374ABF14596EED007E6B9C /* GridViewScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A374ADE14596EED007E6B9C /* Build configuration list for PBXNativeTarget "GridViewScroller" */;
+			buildPhases = (
+				7A374ABC14596EED007E6B9C /* Sources */,
+				7A374ABD14596EED007E6B9C /* Frameworks */,
+				7A374ABE14596EED007E6B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridViewScroller;
+			productName = GridViewScroller;
+			productReference = 7A374AC014596EED007E6B9C /* GridViewScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A374AB714596EED007E6B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7A374ABA14596EED007E6B9C /* Build configuration list for PBXProject "GridViewScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A374AB514596EED007E6B9C;
+			productRefGroup = 7A374AC114596EED007E6B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A374ABF14596EED007E6B9C /* GridViewScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A374ABE14596EED007E6B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A374ACF14596EED007E6B9C /* InfoPlist.strings in Resources */,
+				7A374ADB14596EED007E6B9C /* GVSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A374ABC14596EED007E6B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A374AD114596EED007E6B9C /* main.m in Sources */,
+				7A374AD514596EED007E6B9C /* GVSAppDelegate.m in Sources */,
+				7A374AD814596EED007E6B9C /* GVSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A374ACD14596EED007E6B9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A374ACE14596EED007E6B9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A374AD914596EED007E6B9C /* GVSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A374ADA14596EED007E6B9C /* en */,
+			);
+			name = GVSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A374ADC14596EED007E6B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7A374ADD14596EED007E6B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A374ADF14596EED007E6B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridViewScroller/GridViewScroller-Prefix.pch";
+				INFOPLIST_FILE = "GridViewScroller/GridViewScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A374AE014596EED007E6B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridViewScroller/GridViewScroller-Prefix.pch";
+				INFOPLIST_FILE = "GridViewScroller/GridViewScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A374ABA14596EED007E6B9C /* Build configuration list for PBXProject "GridViewScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A374ADC14596EED007E6B9C /* Debug */,
+				7A374ADD14596EED007E6B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A374ADE14596EED007E6B9C /* Build configuration list for PBXNativeTarget "GridViewScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A374ADF14596EED007E6B9C /* Debug */,
+				7A374AE014596EED007E6B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A374AB714596EED007E6B9C /* Project object */;
+}
