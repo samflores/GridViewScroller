@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define NUMBER_OF_PAGES 5
+
 @interface GVSViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet UIScrollView *scroller;
 
 @end

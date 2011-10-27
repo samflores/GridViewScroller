@@ -7,13 +7,15 @@
 //
 
 #import "GVSViewController.h"
+#import "GVSViewPage.h"
 
 @implementation GVSViewController
+
+@synthesize scroller=_scroller;
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
@@ -21,14 +23,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    for (int i = 0; i < NUMBER_OF_PAGES; i++) {
+        GVSViewPage *page = [[GVSViewPage alloc] init];
+        page.pageNumber = i;
+        page.view.frame = CGRectMake(768 * i, 0, 768, 1004);
+        
+        [self.scroller addSubview:page.view];
+    }
+    self.scroller.pagingEnabled = YES;
+    self.scroller.contentSize = CGSizeMake(768 * NUMBER_OF_PAGES, 1004);
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -53,8 +62,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return YES;
+    return NO;
 }
 
 @end
